@@ -19,6 +19,7 @@
   - External # Frontier
   - Service
   - Aurora # Aurora Song - Changed from Frontier to Aurora
+  - Cargo # Aurora's Song - added to allow access through Port Boreal
   special:
   - !type:AddImplantSpecial
     implants: [ TrackingImplant ]
