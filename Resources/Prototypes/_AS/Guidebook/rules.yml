@@ -1,9 +1,142 @@
 - type: guideEntry
   id: AuroraRuleset
   name: guide-entry-aurora-rules
-  text: "/ServerInfo/_AS/Guidebook/Rules/AuroraRuleset.xml"
-  priority: -2
   ruleEntry: true
-  #children: # Commented out because we're going to have our rules point to our website.
-  #  - FrontierRuleZeroTolerance
-  #  - AuroraERP # Aurora
+  priority: -2
+  text: "/ServerInfo/_AS/Guidebook/Rules/AuroraRuleset.xml"
+  children:
+  - ASRuleC0
+  - ASRuleC1
+  - ASRuleC2
+  - ASRuleC3
+  - ASRuleC4
+  - ASRuleC5
+  - ASRuleC6
+  - ASRuleRP2
+  - ASRuleRP3
+  - ASRuleRP4
+  - ASRuleA1
+  - ASRuleA2
+  - ASRuleA3
+  - ASRuleA4
+  - ASRuleA5
+  - ASRuleA6
+  - ASRuleLawAndOrder
+  - ASRuleStaff
+  - ASRuleCommand
+
+- type: guideEntry
+  id: ASRuleC0
+  name: as-community-rule-0
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/CommunityRules/ASRuleC0Admins.xml"
+
+- type: guideEntry
+  id: ASRuleC1
+  name: as-community-rule-1
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/CommunityRules/ASRuleC1DBAD.xml"
+
+- type: guideEntry
+  id: ASRuleC2
+  name: as-community-rule-2
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/CommunityRules/ASRuleC2Mature.xml"
+
+- type: guideEntry
+  id: ASRuleC3
+  name: as-community-rule-3
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/CommunityRules/ASRuleC3Consent.xml"
+
+- type: guideEntry
+  id: ASRuleC4
+  name: as-community-rule-4
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/CommunityRules/ASRuleC4ICInfo.xml"
+
+- type: guideEntry
+  id: ASRuleC5
+  name: as-community-rule-5
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/CommunityRules/ASRuleC5Powergame.xml"
+
+- type: guideEntry
+  id: ASRuleC6
+  name: as-community-rule-6
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/CommunityRules/ASRuleC6Language.xml"
+
+- type: guideEntry
+  id: ASRuleRP2
+  name: as-rp-rule-2
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/RPRules/ASRuleRP2Naming.xml"
+
+- type: guideEntry
+  id: ASRuleRP3
+  name: as-rp-rule-3
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/RPRules/ASRuleRP3Metaconvo.xml"
+
+- type: guideEntry
+  id: ASRuleRP4
+  name: as-rp-rule-4
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/RPRules/ASRuleRP4Netspeak.xml"
+
+- type: guideEntry
+  id: ASRuleA1
+  name: as-conflict-rule-1
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/AntagRules/ASRuleA1SafeZone.xml"
+
+- type: guideEntry
+  id: ASRuleA2
+  name: as-conflict-rule-2
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/AntagRules/ASRuleA2Escalation.xml"
+
+- type: guideEntry
+  id: ASRuleA3
+  name: as-conflict-rule-3
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/AntagRules/ASRuleA3Crime.xml"
+
+- type: guideEntry
+  id: ASRuleA4
+  name: as-conflict-rule-4
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/AntagRules/ASRuleA4Boarding.xml"
+
+- type: guideEntry
+  id: ASRuleA5
+  name: as-conflict-rule-5
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/AntagRules/ASRuleA5SSD.xml"
+
+- type: guideEntry
+  id: ASRuleA6
+  name: as-conflict-rule-6
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/AntagRules/ASRuleA6Ghost.xml"
+
+- type: guideEntry
+  id: ASRuleLawAndOrder
+  name: as-law-and-order
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/ASRuleLawAndOrder.xml"
+
+- type: guideEntry
+  id: ASRuleStaff
+  name: as-sector-staff
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/ASRuleStaff.xml"
+
+- type: guideEntry
+  id: ASRuleCommand
+  name: as-sector-command
+  ruleEntry: true
+  text: "/ServerInfo/_AS/Guidebook/Rules/ASRuleCommand.xml"
+
+  # - Aurora's Song | Children added to allow nesting of newly added rules to in-game menu.
